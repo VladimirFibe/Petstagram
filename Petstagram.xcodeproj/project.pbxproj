@@ -7,13 +7,31 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		181668CB26E7C56D007DD23C /* JsonData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1820348226E63AE2002C2AB2 /* JsonData.swift */; };
+		1820347D26E63ABF002C2AB2 /* Post.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1820347526E63ABF002C2AB2 /* Post.swift */; };
+		1820347E26E63ABF002C2AB2 /* PostRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1820347726E63ABF002C2AB2 /* PostRequest.swift */; };
+		1820347F26E63ABF002C2AB2 /* APIClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1820347926E63ABF002C2AB2 /* APIClient.swift */; };
+		1820348026E63ABF002C2AB2 /* APIEnvironment.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1820347A26E63ABF002C2AB2 /* APIEnvironment.swift */; };
+		1820348126E63ABF002C2AB2 /* APIRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1820347B26E63ABF002C2AB2 /* APIRequest.swift */; };
+		1820348526E63AE2002C2AB2 /* JsonData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1820348226E63AE2002C2AB2 /* JsonData.swift */; };
+		1820348626E63AE2002C2AB2 /* APIClientTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1820348326E63AE2002C2AB2 /* APIClientTests.swift */; };
+		1820348726E63AE2002C2AB2 /* PostRequestTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1820348426E63AE2002C2AB2 /* PostRequestTests.swift */; };
+		182D55C426E6336100D07EE4 /* Swifter in Frameworks */ = {isa = PBXBuildFile; productRef = 182D55C326E6336100D07EE4 /* Swifter */; };
+		18501BD926E6B5E700B8B4C3 /* FeedView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18501BD826E6B5E700B8B4C3 /* FeedView.swift */; };
+		18501BDB26E6B62C00B8B4C3 /* Feed.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18501BDA26E6B62C00B8B4C3 /* Feed.swift */; };
+		18501BDD26E6BC0E00B8B4C3 /* FeedCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18501BDC26E6BC0E00B8B4C3 /* FeedCell.swift */; };
 		18624AAF26E60A05002F49FD /* PetstagramApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18624AAE26E60A05002F49FD /* PetstagramApp.swift */; };
-		18624AB126E60A05002F49FD /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18624AB026E60A05002F49FD /* ContentView.swift */; };
 		18624AB326E60A06002F49FD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 18624AB226E60A06002F49FD /* Assets.xcassets */; };
 		18624AB626E60A06002F49FD /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 18624AB526E60A06002F49FD /* Preview Assets.xcassets */; };
-		18624AC026E60A06002F49FD /* PetstagramTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18624ABF26E60A06002F49FD /* PetstagramTests.swift */; };
 		18624ACA26E60A06002F49FD /* PetstagramUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18624AC926E60A06002F49FD /* PetstagramUITests.swift */; };
 		18624ACC26E60A06002F49FD /* PetstagramUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18624ACB26E60A06002F49FD /* PetstagramUITestsLaunchTests.swift */; };
+		1866A30C26E678E100A29E81 /* Color+Petstagram.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1866A30B26E678E100A29E81 /* Color+Petstagram.swift */; };
+		1867887B26E64A03001DF4CD /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1867887A26E64A03001DF4CD /* MainView.swift */; };
+		1867887D26E64AC4001DF4CD /* LoginSignupView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1867887C26E64AC4001DF4CD /* LoginSignupView.swift */; };
+		1867887F26E64EC0001DF4CD /* CoolStoryregular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 1867887E26E64EC0001DF4CD /* CoolStoryregular.ttf */; };
+		1867888126E64F23001DF4CD /* AppTitle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1867888026E64F23001DF4CD /* AppTitle.swift */; };
+		1867888326E65077001DF4CD /* UserRequests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1867888226E65077001DF4CD /* UserRequests.swift */; };
+		1867888526E652BA001DF4CD /* UserAuthentication.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1867888426E652BA001DF4CD /* UserAuthentication.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,16 +52,33 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		1820347526E63ABF002C2AB2 /* Post.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Post.swift; sourceTree = "<group>"; };
+		1820347726E63ABF002C2AB2 /* PostRequest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PostRequest.swift; sourceTree = "<group>"; };
+		1820347926E63ABF002C2AB2 /* APIClient.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = APIClient.swift; sourceTree = "<group>"; };
+		1820347A26E63ABF002C2AB2 /* APIEnvironment.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = APIEnvironment.swift; sourceTree = "<group>"; };
+		1820347B26E63ABF002C2AB2 /* APIRequest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = APIRequest.swift; sourceTree = "<group>"; };
+		1820348226E63AE2002C2AB2 /* JsonData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JsonData.swift; sourceTree = "<group>"; };
+		1820348326E63AE2002C2AB2 /* APIClientTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = APIClientTests.swift; sourceTree = "<group>"; };
+		1820348426E63AE2002C2AB2 /* PostRequestTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PostRequestTests.swift; sourceTree = "<group>"; };
+		182D55C126E62F7300D07EE4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		18501BD826E6B5E700B8B4C3 /* FeedView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedView.swift; sourceTree = "<group>"; };
+		18501BDA26E6B62C00B8B4C3 /* Feed.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Feed.swift; sourceTree = "<group>"; };
+		18501BDC26E6BC0E00B8B4C3 /* FeedCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedCell.swift; sourceTree = "<group>"; };
 		18624AAB26E60A05002F49FD /* Petstagram.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Petstagram.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		18624AAE26E60A05002F49FD /* PetstagramApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PetstagramApp.swift; sourceTree = "<group>"; };
-		18624AB026E60A05002F49FD /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		18624AB226E60A06002F49FD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		18624AB526E60A06002F49FD /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		18624ABB26E60A06002F49FD /* PetstagramTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PetstagramTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		18624ABF26E60A06002F49FD /* PetstagramTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PetstagramTests.swift; sourceTree = "<group>"; };
 		18624AC526E60A06002F49FD /* PetstagramUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PetstagramUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		18624AC926E60A06002F49FD /* PetstagramUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PetstagramUITests.swift; sourceTree = "<group>"; };
 		18624ACB26E60A06002F49FD /* PetstagramUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PetstagramUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		1866A30B26E678E100A29E81 /* Color+Petstagram.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Color+Petstagram.swift"; sourceTree = "<group>"; };
+		1867887A26E64A03001DF4CD /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
+		1867887C26E64AC4001DF4CD /* LoginSignupView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginSignupView.swift; sourceTree = "<group>"; };
+		1867887E26E64EC0001DF4CD /* CoolStoryregular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = CoolStoryregular.ttf; sourceTree = "<group>"; };
+		1867888026E64F23001DF4CD /* AppTitle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppTitle.swift; sourceTree = "<group>"; };
+		1867888226E65077001DF4CD /* UserRequests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserRequests.swift; sourceTree = "<group>"; };
+		1867888426E652BA001DF4CD /* UserAuthentication.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserAuthentication.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,6 +86,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				182D55C426E6336100D07EE4 /* Swifter in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -71,6 +107,72 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1820347126E63ABF002C2AB2 /* UI */ = {
+			isa = PBXGroup;
+			children = (
+				18501BD726E6B5C000B8B4C3 /* Feed */,
+				1867887A26E64A03001DF4CD /* MainView.swift */,
+				18501BD626E6B5B400B8B4C3 /* Onboarding */,
+			);
+			path = UI;
+			sourceTree = "<group>";
+		};
+		1820347326E63ABF002C2AB2 /* Service Layer */ = {
+			isa = PBXGroup;
+			children = (
+				1820347426E63ABF002C2AB2 /* Models */,
+				1820347626E63ABF002C2AB2 /* Requests */,
+				1820347826E63ABF002C2AB2 /* Network Engine */,
+			);
+			path = "Service Layer";
+			sourceTree = "<group>";
+		};
+		1820347426E63ABF002C2AB2 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				1820347526E63ABF002C2AB2 /* Post.swift */,
+				1867888426E652BA001DF4CD /* UserAuthentication.swift */,
+				18501BDA26E6B62C00B8B4C3 /* Feed.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		1820347626E63ABF002C2AB2 /* Requests */ = {
+			isa = PBXGroup;
+			children = (
+				1820347726E63ABF002C2AB2 /* PostRequest.swift */,
+				1867888226E65077001DF4CD /* UserRequests.swift */,
+			);
+			path = Requests;
+			sourceTree = "<group>";
+		};
+		1820347826E63ABF002C2AB2 /* Network Engine */ = {
+			isa = PBXGroup;
+			children = (
+				1820347926E63ABF002C2AB2 /* APIClient.swift */,
+				1820347A26E63ABF002C2AB2 /* APIEnvironment.swift */,
+				1820347B26E63ABF002C2AB2 /* APIRequest.swift */,
+			);
+			path = "Network Engine";
+			sourceTree = "<group>";
+		};
+		18501BD626E6B5B400B8B4C3 /* Onboarding */ = {
+			isa = PBXGroup;
+			children = (
+				1867887C26E64AC4001DF4CD /* LoginSignupView.swift */,
+			);
+			path = Onboarding;
+			sourceTree = "<group>";
+		};
+		18501BD726E6B5C000B8B4C3 /* Feed */ = {
+			isa = PBXGroup;
+			children = (
+				18501BD826E6B5E700B8B4C3 /* FeedView.swift */,
+				18501BDC26E6BC0E00B8B4C3 /* FeedCell.swift */,
+			);
+			path = Feed;
+			sourceTree = "<group>";
+		};
 		18624AA226E60A05002F49FD = {
 			isa = PBXGroup;
 			children = (
@@ -95,7 +197,12 @@
 			isa = PBXGroup;
 			children = (
 				18624AAE26E60A05002F49FD /* PetstagramApp.swift */,
-				18624AB026E60A05002F49FD /* ContentView.swift */,
+				182D55C126E62F7300D07EE4 /* Info.plist */,
+				1867887E26E64EC0001DF4CD /* CoolStoryregular.ttf */,
+				1820347326E63ABF002C2AB2 /* Service Layer */,
+				1820347126E63ABF002C2AB2 /* UI */,
+				1867888026E64F23001DF4CD /* AppTitle.swift */,
+				1866A30B26E678E100A29E81 /* Color+Petstagram.swift */,
 				18624AB226E60A06002F49FD /* Assets.xcassets */,
 				18624AB426E60A06002F49FD /* Preview Content */,
 			);
@@ -113,7 +220,9 @@
 		18624ABE26E60A06002F49FD /* PetstagramTests */ = {
 			isa = PBXGroup;
 			children = (
-				18624ABF26E60A06002F49FD /* PetstagramTests.swift */,
+				1820348326E63AE2002C2AB2 /* APIClientTests.swift */,
+				1820348226E63AE2002C2AB2 /* JsonData.swift */,
+				1820348426E63AE2002C2AB2 /* PostRequestTests.swift */,
 			);
 			path = PetstagramTests;
 			sourceTree = "<group>";
@@ -143,6 +252,9 @@
 			dependencies = (
 			);
 			name = Petstagram;
+			packageProductDependencies = (
+				182D55C326E6336100D07EE4 /* Swifter */,
+			);
 			productName = Petstagram;
 			productReference = 18624AAB26E60A05002F49FD /* Petstagram.app */;
 			productType = "com.apple.product-type.application";
@@ -198,6 +310,7 @@
 					};
 					18624ABA26E60A06002F49FD = {
 						CreatedOnToolsVersion = 13.0;
+						LastSwiftMigration = 1300;
 						TestTargetID = 18624AAA26E60A05002F49FD;
 					};
 					18624AC426E60A06002F49FD = {
@@ -215,6 +328,9 @@
 				Base,
 			);
 			mainGroup = 18624AA226E60A05002F49FD;
+			packageReferences = (
+				182D55C226E6336100D07EE4 /* XCRemoteSwiftPackageReference "swifter" */,
+			);
 			productRefGroup = 18624AAC26E60A05002F49FD /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -231,6 +347,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1867887F26E64EC0001DF4CD /* CoolStoryregular.ttf in Resources */,
 				18624AB626E60A06002F49FD /* Preview Assets.xcassets in Resources */,
 				18624AB326E60A06002F49FD /* Assets.xcassets in Resources */,
 			);
@@ -257,8 +374,22 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				18624AB126E60A05002F49FD /* ContentView.swift in Sources */,
+				181668CB26E7C56D007DD23C /* JsonData.swift in Sources */,
+				18501BD926E6B5E700B8B4C3 /* FeedView.swift in Sources */,
+				18501BDB26E6B62C00B8B4C3 /* Feed.swift in Sources */,
+				1867887D26E64AC4001DF4CD /* LoginSignupView.swift in Sources */,
+				1867888326E65077001DF4CD /* UserRequests.swift in Sources */,
+				1820347D26E63ABF002C2AB2 /* Post.swift in Sources */,
+				1867887B26E64A03001DF4CD /* MainView.swift in Sources */,
+				1820348126E63ABF002C2AB2 /* APIRequest.swift in Sources */,
+				1867888126E64F23001DF4CD /* AppTitle.swift in Sources */,
+				1866A30C26E678E100A29E81 /* Color+Petstagram.swift in Sources */,
+				1867888526E652BA001DF4CD /* UserAuthentication.swift in Sources */,
+				1820348026E63ABF002C2AB2 /* APIEnvironment.swift in Sources */,
 				18624AAF26E60A05002F49FD /* PetstagramApp.swift in Sources */,
+				18501BDD26E6BC0E00B8B4C3 /* FeedCell.swift in Sources */,
+				1820347F26E63ABF002C2AB2 /* APIClient.swift in Sources */,
+				1820347E26E63ABF002C2AB2 /* PostRequest.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -266,7 +397,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				18624AC026E60A06002F49FD /* PetstagramTests.swift in Sources */,
+				1820348726E63AE2002C2AB2 /* PostRequestTests.swift in Sources */,
+				1820348526E63AE2002C2AB2 /* JsonData.swift in Sources */,
+				1820348626E63AE2002C2AB2 /* APIClientTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -346,7 +479,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -401,7 +534,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
@@ -422,6 +555,7 @@
 				DEVELOPMENT_TEAM = 723HTEFHBA;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Petstagram/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -452,6 +586,7 @@
 				DEVELOPMENT_TEAM = 723HTEFHBA;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Petstagram/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -476,6 +611,7 @@
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 723HTEFHBA;
@@ -490,6 +626,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.tinkertech.PetstagramTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Petstagram.app/Petstagram";
@@ -501,6 +638,7 @@
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 723HTEFHBA;
@@ -607,6 +745,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		182D55C226E6336100D07EE4 /* XCRemoteSwiftPackageReference "swifter" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/httpswift/swifter.git";
+			requirement = {
+				branch = stable;
+				kind = branch;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		182D55C326E6336100D07EE4 /* Swifter */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 182D55C226E6336100D07EE4 /* XCRemoteSwiftPackageReference "swifter" */;
+			productName = Swifter;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 18624AA326E60A05002F49FD /* Project object */;
 }
