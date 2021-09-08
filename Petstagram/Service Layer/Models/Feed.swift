@@ -15,11 +15,9 @@ class Feed: ObservableObject {
   var getPostsSubscriber: AnyCancellable?
   
   init() {
-    print("init")
     signInSubscriber = NotificationCenter.default.publisher(for: .signInNotification)
       .sink { [weak self] _ in
         self?.loadFeed()
-        print("self?.loadFeed()")
       }
   }
   
@@ -34,7 +32,6 @@ class Feed: ObservableObject {
         }
       }, receiveValue: { newPosts in
         self.posts = newPosts
-        print(self.posts)
       })
   }
 }
