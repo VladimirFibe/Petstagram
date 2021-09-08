@@ -32,6 +32,7 @@ struct FeedCell: View {
           .padding()
           .shadow(radius: 3)
         }(), alignment: .bottomTrailing)
+      CommentCell(post: post)
     }
     .buttonStyle(.plain)
   }

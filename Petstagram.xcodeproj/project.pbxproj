@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		181668CB26E7C56D007DD23C /* JsonData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1820348226E63AE2002C2AB2 /* JsonData.swift */; };
+		1820054C26E88AC30050E0AF /* CommentCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1820054B26E88AC30050E0AF /* CommentCell.swift */; };
 		1820347D26E63ABF002C2AB2 /* Post.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1820347526E63ABF002C2AB2 /* Post.swift */; };
 		1820347E26E63ABF002C2AB2 /* PostRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1820347726E63ABF002C2AB2 /* PostRequest.swift */; };
 		1820347F26E63ABF002C2AB2 /* APIClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1820347926E63ABF002C2AB2 /* APIClient.swift */; };
@@ -52,6 +53,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		1820054B26E88AC30050E0AF /* CommentCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommentCell.swift; sourceTree = "<group>"; };
 		1820347526E63ABF002C2AB2 /* Post.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Post.swift; sourceTree = "<group>"; };
 		1820347726E63ABF002C2AB2 /* PostRequest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PostRequest.swift; sourceTree = "<group>"; };
 		1820347926E63ABF002C2AB2 /* APIClient.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = APIClient.swift; sourceTree = "<group>"; };
@@ -169,6 +171,7 @@
 			children = (
 				18501BD826E6B5E700B8B4C3 /* FeedView.swift */,
 				18501BDC26E6BC0E00B8B4C3 /* FeedCell.swift */,
+				1820054B26E88AC30050E0AF /* CommentCell.swift */,
 			);
 			path = Feed;
 			sourceTree = "<group>";
@@ -383,6 +386,7 @@
 				1867887B26E64A03001DF4CD /* MainView.swift in Sources */,
 				1820348126E63ABF002C2AB2 /* APIRequest.swift in Sources */,
 				1867888126E64F23001DF4CD /* AppTitle.swift in Sources */,
+				1820054C26E88AC30050E0AF /* CommentCell.swift in Sources */,
 				1866A30C26E678E100A29E81 /* Color+Petstagram.swift in Sources */,
 				1867888526E652BA001DF4CD /* UserAuthentication.swift in Sources */,
 				1820348026E63ABF002C2AB2 /* APIEnvironment.swift in Sources */,
